@@ -1,0 +1,52 @@
+/*styles for repository homepage from TP2*/
+ 
+a:hover {
+  background-color: rgb(255, 255, 136);
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 5rem;
+    line-height: 0.9em;
+}
+
+header
+ {
+    background-color: aliceblue;
+    float: center;
+    margin: 1rem;
+    padding: 0px;
+    box-shadow: 0px 5px 10px #333;
+}
+
+section {
+    background-color: azure;
+    float: left;
+    margin: 1rem;
+    padding: 20px;
+    box-shadow: 0px 5px 10px #333;
+}
+
+header h1 {
+    display: flex-grow; 1;
+    text-align: center;
+}
