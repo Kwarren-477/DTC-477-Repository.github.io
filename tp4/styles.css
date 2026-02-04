@@ -1,4 +1,16 @@
-.container {  display: grid;
+:root{
+    --gameboardsize: 80vh;
+    --gameboardspacer: 15px;
+}
+
+#gameboard {
+    position:relative;
+    width: var(--gameboardsize);
+    height: var(var(--gameboardsize));
+    background-color: antiquewhite;
+}
+
+.gamespace {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px 10px;
