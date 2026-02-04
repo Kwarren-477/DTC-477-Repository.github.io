@@ -17,4 +17,9 @@
 .gamespacer {
     position: relative;
     background-color: white;
+    font-size: 10rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
