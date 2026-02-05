@@ -52,9 +52,10 @@ section {
     width: 300px;
     height: 300px;
 }
-#coolPic{
-    box-sizing:content-box;
+#coolPic img {
+    width: 100px;
 }
+
 header h1 {
     display: flex-grow; 1;
     text-align: center;
