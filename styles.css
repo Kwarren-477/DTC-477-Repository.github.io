@@ -44,6 +44,13 @@ section {
     margin: 1rem;
     padding: 20px;
     box-shadow: 0px 5px 10px #333;
+    background-color: azure;
+    float: left;
+    margin: 1rem;
+    padding: 20px;
+    box-shadow: 0px 5px 10px #333;
+    width: 100px;
+    height: 100px;
 }
 
 header h1 {
