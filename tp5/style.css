@@ -1,1 +1,30 @@
 /*styles for tp5*/
+.cardExample {
+  width:200px;
+  height:200px;
+  position: relative;
+}
+
+.cardContent {
+  position: absolute;
+  width: 100%;
+  height: 100;
+  transition: transform 0.5s;
+}
+
+.cardTop,
+.cardBottom {
+  position: absolute;
+  background-color: darkred;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 5rem;
+  text-align: center;
+  transition: transform 0.5s;
+  backface-visibility: hidden;
+}
+
+.cardExample:hover .cardContent {
+  transform: rotateY(180deg);
+}
