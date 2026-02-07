@@ -61,7 +61,7 @@ header h1 {
     text-align: center;
 }
 
-.coolPic img {
+#coolPic img {
     width: 100%;
     height: auto;
     float: right;
