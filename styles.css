@@ -64,5 +64,5 @@ header h1 {
 .coolPic img {
     width: 100%;
     height: auto;
-    float: left;
+    float: right;
 }
