@@ -14,7 +14,7 @@
 
 }
 
-  .cardTop {
+.cardTop {
   background-color: darkred;
   color: black;
 }
@@ -30,7 +30,6 @@
   text-align: center;
   transition: transform 0.5s;
   backface-visibility: hidden;
-   transform: rotateY(180deg);
 }
 
 .cardExample:hover .cardContent {
