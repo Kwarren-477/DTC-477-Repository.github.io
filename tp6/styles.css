@@ -10,10 +10,10 @@ main {
 }
 
 #Predictions {
-    width: 300px;
-    height: 100px;
+    width: 290px;
+    height: 450px;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 5px;
+    left: 5px;
     background-color: azure;
 }
